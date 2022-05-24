@@ -1,0 +1,31 @@
+header{
+    background-color: #051622;
+    border-bottom: solid #DEB992;
+}
+nav{
+    background-color: #051622;
+}
+section{
+    display: block;
+    border-top: solid #DEB992;
+}
+footer{
+    border-top: solid #DEB992;
+    background-color: #051622;
+}
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+a{
+    color: #1BA098
+}
