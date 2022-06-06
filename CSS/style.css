@@ -1,0 +1,91 @@
+.nav-icon{
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar{
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #DEB992;
+}
+
+.top{
+    left: 15%;
+    top: 20%;
+    transition: all 0.5s;
+}
+
+.middle{
+    left: 15%;
+    top: 40%;
+    transition: all 0.5s;
+}
+
+.bottom{
+    left: 15%;
+    top: 40%;
+    transition: all 0.5s;
+}
+
+.navMenu {
+    background-color: #051622;
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+    transform: translateX(-500px);
+    transition: 0.5s;
+}
+
+.navMenu li{
+    list-style-type: none;
+    border-bottom: 1px solid #DEB992;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.showNavMenu{
+    transform: translateX(0);
+    z-index: 1000;
+}
+
+.navMenu li:last-child{
+    border-bottom: none;
+}
+
+.navMenu li a{
+    color: #DEB992;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navMenu li a:hover{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1000px){
+    .navMenu{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navMenu li a{
+        font-size: 16px;
+    }
+}
+
+.blrText{
+    color: transparent;
+    filter:blur(3px);
+    -webkit-filter:blur(3px) ;
+    transition: 0.5s;
+}

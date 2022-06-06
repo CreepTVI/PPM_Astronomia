@@ -1,14 +1,16 @@
 body{
     margin: 0;
+    z-index: 0;
 }
 header{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     height: 4rem;
     right: 0;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 nav{
     display: flex;
@@ -17,15 +19,17 @@ nav{
     right: 0;
     top: 200px;
     left: 0;
+    z-index: 2;
 }
 footer{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     height: 7rem;
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 section{
     position: absolute;
@@ -41,9 +45,62 @@ section{
     min-height: 100vh;
     flex-direction: column;
     flex: 1;
+    z-index: -1;
 }
 
-ul > li{
+#menu > li{
     display: inline-block;
     margin: 10px;
+}
+#menu{
+    position: fixed;
+    right: 0;
+    margin-right: 2%;
+}
+
+#menu >li:last-child{
+    float: right;
+}
+
+#navMenu{
+    left: 0;
+    position: absolute;
+    margin-left: 2%;
+}
+
+h1{
+    position: absolute;
+    margin-left: 8%;
+}
+
+h3{
+    position: absolute;
+    top: -10%;
+}
+
+#pre{
+    left: 0;
+    position: absolute;
+    margin-left: 2%;
+}
+
+#post{
+    right: 0;
+    position: absolute;
+    margin-right: 2%;
+}
+
+#copyright{
+    position: absolute;
+    right: 25%;
+    left: 25%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    z-index: 0;
 }
