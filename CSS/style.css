@@ -1,47 +1,53 @@
+/*Hamburger navigation bar*/
 .nav-icon{
     height: 20px;
     width: 20px;
-    margin: 0 auto;
+    margin-left: 2%;
     border-radius: 50%;
     position: relative;
-    box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+    box-shadow: rgba(0,0,0,0.2) 0 60px 40px -7px;
     cursor: pointer;
     z-index: 2;
+    top: 0;
+}
+.line{
+    width: 30px;
+    height: 2px;
+    background-color: #1BA098;
+    margin: 3px 0;
+    border-radius: 50vw;
+    box-shadow: 0 0 .5rem #1BA098;
+    transition: 200ms ease-in-out,
+                200ms opacity;
 }
 
-.bar{
-    width: 80px;
-    height: 10px;
-    position: absolute;
-    border-radius: 10px;
-    background-color: #DEB992;
+.x .line{
+    background-color: #ff0000;
+    box-shadow: 0 0 .5rem #ff0000;
 }
 
-.top{
-    left: 15%;
-    top: 20%;
-    transition: all 0.5s;
+.x .line1{
+    transform: translateY(5px) rotate(-45deg);
 }
 
-.middle{
-    left: 15%;
-    top: 40%;
-    transition: all 0.5s;
+.x .line2{
+    transform: translateX(100%) rotate(45deg);
+    opacity: 0;
 }
 
-.bottom{
-    left: 15%;
-    top: 40%;
-    transition: all 0.5s;
+.x .line3{
+    transform: translateY(-5px) rotate(45deg);
 }
-
+/*Navigation menu*/
 .navMenu {
     background-color: #051622;
     width: 50%;
     height: 100vh;
     padding: 50px;
-    transform: translateX(-500px);
+    transform: translateX(-1000px);
     transition: 0.5s;
+    top: 4rem;
+    position: absolute;
 }
 
 .navMenu li{
@@ -49,11 +55,6 @@
     border-bottom: 1px solid #DEB992;
     padding: 30px 0;
     text-align: center;
-}
-
-.showNavMenu{
-    transform: translateX(0);
-    z-index: 1000;
 }
 
 .navMenu li:last-child{
@@ -69,6 +70,30 @@
 
 .navMenu li a:hover{
     font-weight: bold;
+}
+/*Show the Navigation menu */
+.showNavMenu{
+    transform: translateX(0);
+    z-index: 3;
+}
+/*Sub menu*/
+.subMenu{
+    position: static;
+    display: none;
+}
+
+.subMenu ul li{
+    line-height: 22px;
+    border-bottom: none;
+}
+
+.subMenu ul li a{
+    font-size: 15px;
+    padding-left: 160px;
+}
+
+.showSubMenu{
+    display: block;
 }
 
 @media screen and (min-width: 1000px){
