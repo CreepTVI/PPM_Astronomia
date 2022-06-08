@@ -1,18 +1,22 @@
-header{
+header {
     background-color: #051622;
     border-bottom: solid #DEB992;
 }
-nav{
+
+nav {
     background-color: #051622;
 }
-section{
+
+section {
     display: block;
     border-top: solid #DEB992;
-} 
-footer{
+}
+
+footer {
     border-top: solid #DEB992;
     background-color: #051622;
 }
+
 body {
     background-color: black;
 }
@@ -20,12 +24,15 @@ body {
 h1 {
     color: white;
 }
-h3{
+
+h3 {
     color: white;
 }
-p{
+
+p {
     color: white;
 }
-a{
+
+a {
     color: #1BA098
 }

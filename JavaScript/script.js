@@ -35,7 +35,7 @@ const quizData = [
 
 ];
 
-const quiz= document.getElementById('quiz')
+const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
@@ -56,8 +56,7 @@ function loadQuiz() {
 
     const currentQuizData = quizData[currentQuiz]
     let x = Math.floor(Math.random() * 100);
-    if(x < 25)
-    {
+    if (x < 25) {
         questionEl.innerText = currentQuizData.question
         a_text.innerText = currentQuizData.a
         b_text.innerText = currentQuizData.b
@@ -66,8 +65,7 @@ function loadQuiz() {
         quizData[currentQuiz].correct = "a"
     }
 
-    if(x >= 50 && x < 75) 
-    {
+    if (x >= 50 && x < 75) {
         questionEl.innerText = currentQuizData.question
         a_text.innerText = currentQuizData.b
         b_text.innerText = currentQuizData.a
@@ -76,8 +74,7 @@ function loadQuiz() {
         quizData[currentQuiz].correct = "b"
     }
 
-    if(x >= 75 && x < 100) 
-    {
+    if (x >= 75 && x < 100) {
         questionEl.innerText = currentQuizData.question
         a_text.innerText = currentQuizData.c
         b_text.innerText = currentQuizData.d
@@ -85,10 +82,9 @@ function loadQuiz() {
         d_text.innerText = currentQuizData.b
         quizData[currentQuiz].correct = "c"
     }
-    
 
-    if(x >= 25 && x < 50) 
-    {
+
+    if (x >= 25 && x < 50) {
         questionEl.innerText = currentQuizData.question
         a_text.innerText = currentQuizData.d
         b_text.innerText = currentQuizData.c
@@ -106,7 +102,7 @@ function deselectAnswers() {
 function getSelected() {
     let answer
     answerEls.forEach(answerEl => {
-        if(answerEl.checked) {
+        if (answerEl.checked) {
             answer = answerEl.id
         }
     })
@@ -116,20 +112,20 @@ function getSelected() {
 
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
-    if(answer) {
-       if(answer === quizData[currentQuiz].correct) {
-           score++
-       }
-       currentQuiz++
+    if (answer) {
+        if (answer === quizData[currentQuiz].correct) {
+            score++
+        }
+        currentQuiz++
 
-       if(currentQuiz < quizData.length) {
-           loadQuiz()
-       } else {
-           quiz.innerHTML = `
+        if (currentQuiz < quizData.length) {
+            loadQuiz()
+        } else {
+            quiz.innerHTML = `
            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
 
            <button class="button button1" onclick="location.reload()">Reload</button>
            `
-       }
+        }
     }
 })

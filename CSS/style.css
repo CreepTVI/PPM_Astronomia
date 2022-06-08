@@ -1,16 +1,20 @@
+*{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
 /*Hamburger navigation bar*/
-.nav-icon{
+.nav-icon {
     height: 20px;
     width: 20px;
     margin-left: 2%;
     border-radius: 50%;
     position: relative;
-    box-shadow: rgba(0,0,0,0.2) 0 60px 40px -7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 60px 40px -7px;
     cursor: pointer;
     z-index: 2;
     top: 0;
 }
-.line{
+
+.line {
     width: 30px;
     height: 2px;
     background-color: #1BA098;
@@ -18,26 +22,27 @@
     border-radius: 50vw;
     box-shadow: 0 0 .5rem #1BA098;
     transition: 200ms ease-in-out,
-                200ms opacity;
+    200ms opacity;
 }
 
-.x .line{
+.x .line {
     background-color: #ff0000;
     box-shadow: 0 0 .5rem #ff0000;
 }
 
-.x .line1{
+.x .line1 {
     transform: translateY(5px) rotate(-45deg);
 }
 
-.x .line2{
+.x .line2 {
     transform: translateX(100%) rotate(45deg);
     opacity: 0;
 }
 
-.x .line3{
+.x .line3 {
     transform: translateY(-5px) rotate(45deg);
 }
+
 /*Navigation menu*/
 .navMenu {
     background-color: #051622;
@@ -49,77 +54,96 @@
     top: 4rem;
     position: absolute;
 }
-img{
-    width: 400px;
-    height: 200px;
-    margin-top: 2%;
-}
-.navMenu li{
+
+.navMenu li {
     list-style-type: none;
     border-bottom: 1px solid #DEB992;
     padding: 30px 0;
     text-align: center;
 }
 
-.navMenu li:last-child{
+.navMenu li:last-child {
     border-bottom: none;
 }
 
-.navMenu li a{
+.navMenu li a {
     color: #DEB992;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
 }
 
-.navMenu li a:hover{
+.navMenu li a:hover {
     font-weight: bold;
 }
+
 /*Show the Navigation menu */
-.showNavMenu{
+.showNavMenu {
     transform: translateX(0);
     z-index: 3;
 }
+
 /*Sub menu*/
-.subMenu{
-    position: static;
-    display: none;
+.subMenu {
+    background-color: #051622;
+    width: 60%;
+    height: auto;
+    padding: 50px;
+    transform: translateX(-1000px);
+    transition: 0.5s;
+    top: 1rem;
+    position: absolute;
+    border: solid #DEB992;
 }
 
-.subMenu ul li{
-    line-height: 22px;
+.subMenu li {
+    list-style-type: none;
+    border-bottom: 1px solid #DEB992;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.subMenu li:last-child {
     border-bottom: none;
 }
 
-.subMenu ul li a{
+.subMenu li a {
+    color: #DEB992;
+    text-decoration: none;
     font-size: 15px;
-    padding-left: 160px;
+    text-align: center;
 }
 
-.showSubMenu{
-    display: block;
+.subMenu li a:hover {
+    font-weight: bold;
 }
 
-@media screen and (min-width: 1000px){
-    .navMenu{
+.showSubMenu {
+    transform: translateX(512px);
+    z-index: 3;
+}
+
+@media screen and (min-width: 1000px) {
+    .navMenu {
         width: 500px;
     }
 }
 
-@media screen and (max-width: 600px){
-    .navMenu li a{
+@media screen and (max-width: 600px) {
+    .navMenu li a {
         font-size: 16px;
     }
 }
 
-.blrText{
+.blrText {
     color: transparent;
-    filter:blur(3px);
-    -webkit-filter:blur(3px) ;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
     transition: 0.5s;
 }
+
 /*button*/
-.button{
+.button {
     color: rgb(0, 0, 0); /*questo è per la scritta submit sul bottone*/
     border: none;
     display: block;
@@ -129,31 +153,53 @@ img{
     font-size: 1.1rem;
     font-family: inherit;
     padding: 1rem;
-  }
-  .button1{
+}
+
+.button1 {
     width: 100%;
-  }
-  #pre{
-     border-radius: 12px;
-  }
-  
-  #post{
-      border-radius: 12px;
-  }
-  .button2{
+}
+
+#pre {
+    border-radius: 12px;
+}
+
+#post {
+    border-radius: 12px;
+}
+
+.button2 {
     width: 10%;
-  }
-  button:hover{
+}
+
+button:hover {
     background-color: #04adc4;
     box-shadow: 0 0 .5rem #04adc4;
-  }
-  .button1:focus{
+}
+
+.button1:focus {
     outline: none;
     background-color: #44b927;
     box-shadow: 0 0 .5rem #44b927;
-  }
-  .button2:focus{
+}
+
+.button2:focus {
     outline: none;
     background-color: #027483;
     box-shadow: 0 0 .5rem #027483;
-  }
+}
+
+img {
+    width: 450px;
+    height: 250px;
+    margin-top: 2%;
+    border: solid #DEB992;
+    box-shadow: 0 0 .3rem #DEB992;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+#copyright{
+    font-size: 11px;
+    text-align: center;
+    font-family: "Calibri Light", sans-serif;
+}

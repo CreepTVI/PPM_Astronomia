@@ -1,4 +1,4 @@
-function start(){
+function start() {
     // Some random colors
     const colors = ["#ff3300", "#ffbf00", "#ffffff", "#80dfff"];
 
@@ -22,14 +22,14 @@ function start(){
 // Keyframes
     balls.forEach((el, i, ra) => {
         let to = {
-            x: Math.random()* (i % 2 === 0 ? -0.5 : 0.5),
+            x: Math.random() * (i % 2 === 0 ? -0.5 : 0.5),
             y: Math.random() * (i % 2 === 0 ? -0.5 : 0.5)
         };
 
         let anim = el.animate(
             [
-                { transform: "translate(0, 0)" },
-                { transform: `translate(${to.x}rem, ${to.y}rem)` }
+                {transform: "translate(0, 0)"},
+                {transform: `translate(${to.x}rem, ${to.y}rem)`}
             ],
             {
                 duration: (Math.random() + 1) * 2000, // random duration
