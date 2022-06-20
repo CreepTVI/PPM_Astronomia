@@ -1,0 +1,72 @@
+*{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/*menu*/
+#menu li a{
+    background-color: #DEB992;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0 0 .5rem #DEB992;
+}
+
+#menu li a:hover{
+    outline: none;
+    background-color: #04adc4;
+    box-shadow: 0 0 .5rem #04adc4;
+}
+
+#menu li a:focus{
+    outline: none;
+    background-color: #027483;
+    box-shadow: 0 0 .5rem #027483;
+}
+
+/*title*/
+h1 {
+    font-size: 100px;
+}
+
+/*button*/
+.button {
+    color: rgb(0, 0, 0); /*questo è per la scritta submit sul bottone*/
+    border: none;
+    display: block;
+    background-color: #DEB992;
+    box-shadow: 0 0 .5rem #DEB992;
+    cursor: pointer;
+    line-height: 0;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 2rem;
+}
+
+#post {
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.button1 {
+    width: 20%;
+}
+
+button:hover {
+    background-color: #04adc4;
+    box-shadow: 0 0 .5rem #04adc4;
+}
+
+.button1:focus {
+    outline: none;
+    background-color: #027483;
+    box-shadow: 0 0 .5rem #027483;
+}
+
+#copyright{
+    font-size: 11px;
+    text-align: center;
+    font-family: "Calibri Light", sans-serif;
+}
