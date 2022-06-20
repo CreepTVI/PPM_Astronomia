@@ -70,3 +70,9 @@ button:hover {
     text-align: center;
     font-family: "Calibri Light", sans-serif;
 }
+
+body{
+    background-image: url("../img/title.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
