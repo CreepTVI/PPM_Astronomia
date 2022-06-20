@@ -2,6 +2,12 @@
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-image: url("../img/title.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
 /*menu*/
 #menu li a{
     background-color: #DEB992;
@@ -69,10 +75,4 @@ button:hover {
     font-size: 11px;
     text-align: center;
     font-family: "Calibri Light", sans-serif;
-}
-
-body{
-    background-image: url("../img/title.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
 }
