@@ -1,5 +1,5 @@
 header{
-    background-color: black;
+    background-color: none;
     border-bottom: solid black;
 }
 
@@ -10,10 +10,6 @@ section{
 
 footer{
     border-top: solid #DEB992;
-    background-color: black;
-}
-
-body {
     background-color: black;
 }
 
