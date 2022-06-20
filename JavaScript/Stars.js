@@ -1,4 +1,4 @@
-function start() {
+//function start() {
     // Some random colors
     const colors = ["#ff3300", "#ffbf00", "#ffffff", "#80dfff"];
 
@@ -40,4 +40,4 @@ function start() {
             }
         );
     });
-}
+//}

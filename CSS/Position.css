@@ -131,3 +131,8 @@ h3 {
 p {
     z-index: 1;
 }
+
+#fullScreenMenu{
+    top: 15%;
+    border-top: none;
+}

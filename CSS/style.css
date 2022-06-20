@@ -203,3 +203,40 @@ img {
     text-align: center;
     font-family: "Calibri Light", sans-serif;
 }
+
+a:hover{
+    color: #027483;
+}
+
+a:visited{
+    color: #DEB992;
+}
+
+#sectionMenu{
+    display: block;
+    background-color: #051622;
+    width: 95%;
+    border: solid 1px #DEB992;
+    box-shadow: 0 0 .5rem #DEB992;
+    border-radius: 12px;
+}
+#sectionMenu li a{
+    text-decoration: none;
+}
+
+#sectionMenu li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    color: #DEB992;
+    font-size: 25px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+#sectionMenu li:last-child {
+    border-bottom: none;
+}
+
+#sectionMenu li a:hover {
+    font-weight: bold;
+}
