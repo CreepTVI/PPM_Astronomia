@@ -58,7 +58,7 @@
 .navMenu li {
     list-style-type: none;
     border-bottom: 1px solid #DEB992;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -88,7 +88,7 @@
     background-color: #051622;
     width: 60%;
     height: auto;
-    padding: 50px;
+    padding: 40px;
     transform: translateX(-1000px);
     transition: 0.5s;
     top: 1rem;
