@@ -1,5 +1,7 @@
 *{
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
 }
 /*Hamburger navigation bar*/
 .nav-icon {
@@ -169,6 +171,10 @@
 
 .button2 {
     width: 10%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
 }
 
 button:hover {
@@ -219,9 +225,11 @@ a:visited{
     border: solid 1px #DEB992;
     box-shadow: 0 0 .5rem #DEB992;
     border-radius: 12px;
+
 }
 #sectionMenu li a{
     text-decoration: none;
+    text-align: justify;
 }
 
 #sectionMenu li{
@@ -239,4 +247,98 @@ a:visited{
 
 #sectionMenu li a:hover {
     font-weight: bold;
+}
+
+audio{
+    box-shadow: 0 0 .5rem #DEB992;
+    border-radius: 70px;
+    border: solid 1px #DEB992;
+    transform: scale(1.05);
+    width: 250px;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #DEB992;
+}
+
+table{
+    top: 5%;
+    position: relative;
+    background:none;
+    box-shadow: 0 0 .5rem #DEB992;
+}
+
+table tr th{
+    background-color: #DEB992;
+    color: black;
+}
+
+table tr th{
+    border: solid 1px #DEB992;
+    color: black;
+}
+
+table tr td{
+    border: solid 1px #DEB992;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.list{
+    list-style-type: initial;
+    text-align: center;
+    color: white;
+    margin-left: 60px;
+}
+
+
+.hero-text a{
+    text-decoration: none;
+    color:white;
+}
+
+.column #chapter1:hover, #chapter2:hover, #chapter3:hover, #chapter4:hover, #chapter5:hover, #chapter6:hover{
+    cursor: pointer;
+}
+
+#chapter1{
+    background-image: url("../img/introduzione.jpg");
+}
+#chapter2{
+    background-image: url("../img/corpiCelesti.jpg");
+}
+#chapter3{
+    background-image: url("../img/cometa.jpg");
+}
+#chapter4{
+    background-image: url("../img/bucoNero.jpg");
+}
+#chapter5{
+    background-image: url("../img/galassia.jpg");
+}
+#chapter6{
+    background-image: url("../img/Galasias/galassia_colore1.jpg");
+}
+
+.side{
+    text-align: justify;
+    position: relative;
+}
+
+.side img{
+    display: inline-block;
+}
+
+.side:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    padding: 10px 25px;
+}
+
+#home{
+    border-top: none;
+    top: 13%;
 }

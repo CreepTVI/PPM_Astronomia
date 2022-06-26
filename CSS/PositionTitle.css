@@ -72,6 +72,11 @@ h1 {
     top: 1%;
 }
 
+h2 {
+    position: absolute;
+    top: 1%;
+}
+
 #post {
     position: absolute;
     margin-top: 30%;    
