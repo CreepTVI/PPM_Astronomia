@@ -6,7 +6,7 @@ const quizData = [
         b: "Onde elettromagnetiche",
         c: "orizzonte degli eventi",
         d: "singolarità",
-        correct: "a",
+        correct: "d",
     },
     {
         //2
@@ -24,7 +24,7 @@ const quizData = [
         b: "disco di accrescimento",
         c: "orizzonte degli eventi",
         d: "inverso temporale",
-        correct: "a",
+        correct: "c",
     },
     {
         //4
@@ -126,7 +126,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
            <h2>Punteggio ottenuto: ${score}/${quizData.length}</h2>
 
-           <button class="button button1" onclick="location.reload()">Reload</button>
+           <button class="button button1" onclick="location.reload()">Completato</button>
            `
         }
     }

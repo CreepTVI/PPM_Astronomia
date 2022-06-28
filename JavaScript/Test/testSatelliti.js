@@ -10,15 +10,6 @@ const quizData = [
     },
     {
         //2
-        question: "I satelliti viaggiano a una velocità costante?",
-        a: "No",
-        b: "Sì",
-        c: "A volte",
-        d: "Sì, ma solo quelli artificiali",
-        correct: "a",
-    },
-    {
-        //3
         question: "I satelliti artificiali:",
         a: "Hanno funzioni diverse e sono costruiti diversamente in base alle loro funzioni",
         b: "Hanno funzioni diverse ma sono costruiti tutti allo stesso modo",
@@ -27,7 +18,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //4
+        //3
         question: "Le parti fondamentali di un satellite sono:",
         a: "Antenna e fonte di alimentazione",
         b: "Antenna e parabola",
@@ -36,7 +27,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //5
+        //4
         question: "Un satellite con un'orbita di tipo geostazionario:",
         a: "Viaggia da ovest a est sopra l'equatore",
         b: "Rimane fermo in un solo punto",
@@ -45,7 +36,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //6
+        //5
         question: "Un satellite con un'orbita di tipo polare:",
         a: "Viaggia da nord a sud passando sopra i poli",
         b: "Viaggiaa da est a ovest sopra l'equatore",
@@ -54,7 +45,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //7
+        //6
         question: "Le collisioni tra satelliti:",
         a: "Possono avvenire per il cambiamento di orbita",
         b: "Non possono avvenire",
@@ -63,7 +54,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //8
+        //7
         question: "Con 'luna' si intende",
         a: "Un satellite naturale che gira intorno a un pianeta",
         b: "Un satellite artificiale che gira intorno a un pianeta",
@@ -72,7 +63,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //9
+        //8
         question: "Un satellite naturale può essere:",
         a: "Una piccola galassia che orbita attorno una galassia più grande",
         b: "Un satellite controllato dall'uomo",
@@ -81,7 +72,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //10
+        //9
         question: "Quali pianeti NON hanno satelliti naturali:",
         a: "Mercurio e Venere",
         b: "Terra e Marte",
@@ -90,7 +81,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //11
+        //10
         question: "Quanti satelliti naturali regolari ha la Terra?",
         a: "1",
         b: "0",
@@ -99,7 +90,7 @@ const quizData = [
         correct: "a",
     },
     {
-        //12
+        //11
         question: "I satelliti interni possono essere distinti dagli altri satelliti per i loro lunghi periodi orbitali:",
         a: "Falso sempre",
         b: "Falso, non esistono i satelliti interni",
@@ -107,53 +98,9 @@ const quizData = [
         d: "Vero, ma solo in alcuni casi",
         correct: "a",
     },
+
     {
         //13
-        question: "Un'orbita di tipo retrogrado viene anche chiamata orbita irregolare:",
-        a: "Vero sempre",
-        b: "Vero, ma solo se il satellite è artificiale",
-        c: "Vero, ma solo se il satellite è naturale",
-        d: "Falso",
-        correct: "a",
-    },
-    {
-        //15
-        question: "I satelliti sono in grado di influenzare la forza di gravità dei pianeti:",
-        a: "Vero, ma solo se hanno una massa sufficientemente grande",
-        b: "Vero sempre",
-        c: "Falso, i satelliti non orbitano attorno ai pianeti",
-        d: "Falso, sono i pianeti ad influenzare la forza di gravita dei satelliti, non il contrario",
-        correct: "a",
-    },
-    {
-        //16
-        question: "Chi fu la prima persona a scoprire che i pianeti possono avere lune?",
-        a: "Galileo Galilei",
-        b: "Van Allen",
-        c: "Von Braun",
-        d: "Isaac Newton",
-        correct: "a",
-    },
-    {
-        //17
-        question: "Chi fu il primo paese a lanciare con successo il primo satellite artificiale?",
-        a: "Unione Sovetica",
-        b: "USA",
-        c: "Cina",
-        d: "India",
-        correct: "a",
-    },
-    {
-        //18
-        question: "Il secondo satellite artificiale a essere stato lanciato con successo conteneva un cane di nome Laika:",
-        a: "Vero",
-        b: "Falso, era un gatto",
-        c: "Falso, i satelliti artificiali non sono ancora stati messi in orbita",
-        d: "Falso, era un cane ma si chiamava Bobby",
-        correct: "a",
-    },
-    {
-        //19
         question: " Con periodo sinodico si intende:",
         a: "Il periodo di tempo impiegato da una luna piena all'altra",
         b: "Il tempo impiegato dalla Luna per fare un giro completo attorno alla Terra",
@@ -252,7 +199,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
            <h2>Punteggio ottenuto: ${score}/${quizData.length}</h2>
 
-           <button class="button button1" onclick="location.reload()">Reload</button>
+           <button class="button button1" onclick="location.reload()">Completato</button>
            `
         }
     }

@@ -175,6 +175,14 @@
 
 .button1 {
     width: 100%;
+    text-align: center;
+}
+
+.button2:disabled,
+.button2[disabled]{
+    background-color: #5f5f5f;
+    box-shadow: none;
+    cursor: default;
 }
 
 #pre {

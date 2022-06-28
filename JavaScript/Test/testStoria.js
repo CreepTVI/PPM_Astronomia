@@ -24,7 +24,7 @@ const quizData = [
         b: "Una piccola galassia",
         c: "Galassia di Andromeda",
         d: "La cintura di Orione",
-        correct: "a",
+        correct: "c",
     },
     {
         //4
@@ -42,16 +42,16 @@ const quizData = [
         b: "Falso",
         c: "Vero solo per alcuni seguaci",
         d: "Per aristotele nell'universo esistevano solo la terra ed il Sole",
-        correct: "a",
+        correct: "b",
     },
     {
         //6
-        question: "Nel cosmo aristotelico la Via Lattera era una galassia immobile al centro dell'universo",
+        question: "Nel cosmo aristotelico la Via Lattea era una galassia immobile al centro dell'universo",
         a: "Vero",
         b: "Falso",
         c: "Vero solo per alcuni seguaci",
         d: "Per aristotele la Via Lattea era l'universo stesso",
-        correct: "a",
+        correct: "b",
     },
     {
         //7
@@ -69,7 +69,7 @@ const quizData = [
         b: "Tolomeo",
         c: "Tommaso d'Aquino",
         d: "Galileo Galilei",
-        correct: "a",
+        correct: "c",
     },
     {
         //9
@@ -78,7 +78,7 @@ const quizData = [
         b: "Falso",
         c: "Vero solo per alcune zone",
         d: "La chiesa deformò le scoperto per proprio tornaconto",
-        correct: "a",
+        correct: "b",
     },
     {
         //10
@@ -87,7 +87,7 @@ const quizData = [
         b: "l’universo centrato sulla Terra di Aristotele",
         c: "un catalogo di pianeti e posizioni delle stelle",
         d: "una raccolta di disegni delle interpretazioni delle costellazioni",
-        correct: "a",
+        correct: "b",
     },
     {
         //11
@@ -123,7 +123,7 @@ const quizData = [
         b: "Falso",
         c: "Vero solo a seconda della branca della prima",
         d: "L'astrologia non esiste",
-        correct: "a",
+        correct: "b",
     },
     {
         //15
@@ -132,7 +132,7 @@ const quizData = [
         b: "è fondata su credenze popolari",
         c: "è basata su studi certi",
         d: "significa forma delle stelle",
-        correct: "a",
+        correct: "b",
     },
     {
         //16
@@ -141,7 +141,7 @@ const quizData = [
         b: "3",
         c: "4",
         d: "1",
-        correct: "a",
+        correct: "b",
     },
     {
         //17
@@ -150,15 +150,6 @@ const quizData = [
         b: "dalle Sacre Scritture",
         c: "dal tribunale della Santa Inquisizione",
         d: "dal Papa",
-        correct: "a",
-    },
-    {
-        //18
-        question: "Tra questi motivi, quale non fu causa del processo di Galileo",
-        a: "difendeva la netta separazione tra gli argomenti scientificie la religione",
-        b: "assimilava l'intuizione di uno scienziato quasi ad una rivelazione divina",
-        c: "non appoggiava l'ipotesi copernicana",
-        d: "",
         correct: "a",
     },
     
@@ -253,7 +244,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
            <h2>Punteggio ottenuto: ${score}/${quizData.length}</h2>
 
-           <button class="button button1" onclick="location.reload()">Reload</button>
+           <button class="button button1" onclick="location.reload()">Completato</button>
            `
         }
     }
