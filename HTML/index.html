@@ -18,111 +18,90 @@
 </head>
 
 <body onload="start()">
-<ul class="navMenu">
-    <li>
-        <a class="item_menu1" href="#">Introduzione</a>
-
-        <ul class="subMenu" id="sub1">
-            <li><a class="item_sub_menu" href="#">Origini dell'astronomia</a></li>
-            <li><a class="item_sub_menu" href="#">Cosa è l'astronomia</a></li>
-            <li><a class="item_sub_menu" href="#">Test storia</a></li>
-        </ul>
-
-    </li>
-
-    <li>
-        <a class="item_menu2" href="#">Corpi celesti</a>
-        <ul class="subMenu" id="sub2">
-            <li><a class="item_sub_menu" href="#">Pianeti</a></li>
-            <li><a class="item_sub_menu" href="#">Stelle</a></li>
-            <li><a class="item_sub_menu" href="#">Satelliti</a></li>
-            <li><a class="item_sub_menu" href="#">Test pianeti</a></li>
-            <li><a class="item_sub_menu" href="#">Test stelle</a></li>
-            <li><a class="item_sub_menu" href="#">Test Satelliti</a></li>
-        </ul>
-    </li>
-
-    <li>
-        <a class="item_menu3" href="#">Fenomeni atmosferici</a>
-        <ul class="subMenu" id="sub3">
-            <li><a class="item_sub_menu" href="#">Visibili dalla Terra</a></li>
-            <li><a class="item_sub_menu" href="#">Non visibili</a></li>
-            <li><a class="item_sub_menu" href="#">Test Fenomeni atmosferici</a></li>
-        </ul>
-    </li>
-
-    <li>
-        <a class="item_menu4" href="#">Oggetti celesti</a>
-        <ul class="subMenu" id="sub4">
-            <li><a class="item_sub_menu" href="CelestialObjects/blackHole/blackHole_0.html">Buchi neri</a></li>
-            <li><a class="item_sub_menu" href="#">Buchi bianchi</a></li>
-            <li><a class="item_sub_menu" href="#">Test buchi neri</a></li>
-            <li><a class="item_sub_menu" href="#">Test buchi bianchi</a></li>
-        </ul>
-    </li>
-
-    <li>
-        <a class="item_menu5" href="#">Galassie</a>
-        <ul class="subMenu" id="sub5">
-            <li><a class="item_sub_menu" href="#">Introduzione</a></li>
-            <li><a class="item_sub_menu" href="#">Classificazione</a></li>
-            <li><a class="item_sub_menu" href="#">Test Galassie</a></li>
-        </ul>
-    </li>
-
-    <li>
-        <a class="item_menu6" href="#">Approfondimenti</a>
-        <ul class="subMenu" id="sub6">
-            <li><a class="item_sub_menu" href="#">Teoria delle Stringhe</a></li>
-            <li><a class="item_sub_menu" href="#">Whormholes</a></li>
-            <li><a class="item_sub_menu" href="#">Buchi temporali</a></li>
-            <li><a class="item_sub_menu" href="#">Relatività generale</a></li>
-            <li><a class="item_sub_menu" href="#">Teoria del multiverso</a></li>
-        </ul>
-    </li>
-
-</ul>
 <header>
-    <h1>Titolo</h1>
-
-    <div class="nav-icon">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-        <a class="menu_icon" href="#"><i class="material-icons"></i> </a>
-    </div>
-
+    <h1>Home</h1>
     <nav>
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="help.html">Help</a></li>
-            <li><a href="mappa.htlm"> Mappa</a></li>
+            <li><a href="mappa.html"> Mappa</a></li>
             <li><a href="#" onclick="closeApp()">Esci</a></li>
         </ul>
     </nav>
 </header>
-<section>
-    <h3>Cosa sono</h3>
-    <p>Un pianeta è un corpo celeste che, a differenza delle stelle, non ha sorgenti di energia nucleare interne, pur
-        essendo dotate di un nucleo caldo formato da materiali pesanti ad alte temperature e pressioni, e si trova
-        solitamente in orbita attorno a una stella.
-        I calcoli mostrano che le reazioni di fusione nucleare possono avvenire solo per quei corpi celesti che
-        presentano una massa superiore di 13 volte quella di Giove: questo valore fissa un limite oltre il quale il
-        corpo celeste non può più essere chiamato “pianeta”.
-        È possibile che un pianeta piccolo cresca di dimensioni nel corso di centinaia di milioni di anni, a causa dello
-        schianto di corpi celesti più piccoli, superando il limite sopra citato.
+<section id="home">
+    <p>
+        L'astronomia è la scienza che si occupa dell'osservazione e della spiegazione degli eventi celesti.
+        È una delle scienze più antiche e molte civiltà arcaiche in tutto il mondo hanno studiato in modo più o meno
+        sistematico il cielo.
     </p>
-    <img alt="" src="../img/stelle.jpg">
+    <div class="row">
+        <div class="column">
+            <div id="chapter1" onclick="window.open('exit.html', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Introduzione</a></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div id="chapter2" onclick="window.open('CelestialBodies/planets/planetes_0.html', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Corpi celesti</a></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div id="chapter3" onclick="window.open('AtmosphericPhenomena/', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Fenomeni astronomici</a></h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div id="chapter4" onclick="window.open('CelestialObjects/blackHole/blackHole_0.html', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Oggetti celesti</a></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div id="chapter5" onclick="window.open('Galasias/galassia_0.html', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Galassie</a></h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div id="chapter6" onclick="window.open('Insights/', '_self', '')">
+                <div class="hero-text">
+                    <h2><a href="exit.html">Approfondimenti</a></h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 <footer>
-    <button class="button button2" id="pre">Precedente</button>
+    <button class="button button2" id="pre" onclick="history.back()">Precedente</button>
 
     <p id="copyright">Copyright© 2022, tutti i diritti sono riservati.
-        Autori: Ivone Danilo; Esposito Daniele; Martina ; Mattia; Antonio
+        Autori: Ivone Danilo; Esposito Daniele; Camardi Martina; Siragusa Mattia; Gravina Antonio
         <a href="CorsaAlloSpazio@gmail.com">CorsaAlloSpazio@gmail.com</a></p>
 
-    <button class="button button2" id="post">Continua</button>
+    <button class="button button2" id="post" onclick="window.open('Introduction/introduztion.html', '_self', '')">Continua</button>
 </footer>
 
 </body>

@@ -1,5 +1,5 @@
 header{
-    background-color: black;
+    background-color: none;
     border-bottom: solid black;
 }
 
@@ -13,11 +13,11 @@ footer{
     background-color: black;
 }
 
-body {
-    background-color: black;
+h1 {
+    color: white;
 }
 
-h1 {
+h2{
     color: white;
 }
 
