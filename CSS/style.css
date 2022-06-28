@@ -125,12 +125,28 @@
     z-index: 3;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 650px) and (max-width:1366px) {
     .navMenu {
         width: 500px;
     }
+    .navMenu li {
+        padding: 20px;
+    }
+    p {
+       font-size: 14px; 
+    } 
+   img {
+        max-height: 150px; 
+        max-width: 300px;
+   }  
 }
 
+@media screen and (min-width: 650px) and (max-width:1366px) {
+.img {
+    width: 300px;
+    height: 150px;
+}
+}
 @media screen and (max-width: 600px) {
     .navMenu li a {
         font-size: 16px;
@@ -159,6 +175,14 @@
 
 .button1 {
     width: 100%;
+    text-align: center;
+}
+
+.button2:disabled,
+.button2[disabled]{
+    background-color: #5f5f5f;
+    box-shadow: none;
+    cursor: default;
 }
 
 #pre {
