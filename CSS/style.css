@@ -125,7 +125,19 @@
     z-index: 3;
 }
 
-@media screen and (min-width: 650px) and (max-width:1700px) {
+@media screen and (min-width: 1400px) and (max-width: 1700px){
+    .navMenu {
+        width: 500px;
+    }
+    .navMenu li {
+        padding: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width:1400px) {
     .navMenu {
         width: 500px;
     }
@@ -141,7 +153,7 @@
    }  
 }
 
-@media screen and (min-width: 650px) and (max-width:1700px) {
+@media screen and (min-width: 650px) and (max-width:1400px) {
 .img {
     width: 300px;
     height: 150px;
@@ -365,4 +377,8 @@ table tr td{
 #home{
     border-top: none;
     top: 13%;
+}
+
+b{
+    font-size: 18px;
 }
