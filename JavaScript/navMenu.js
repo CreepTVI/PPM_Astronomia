@@ -7,7 +7,7 @@ const subMenus = [document.querySelector('#sub1'), document.querySelector('#sub2
 
 const itemsMenu = [document.querySelector('.item_menu1'), document.querySelector('.item_menu2'),
     document.querySelector('.item_menu3'), document.querySelector('.item_menu4'),
-    document.querySelector('.item_menu5'), document.querySelector('.item_menu6')]
+    document.querySelector('.item_menu5'), document.querySelector('.item_menu6')];
 
 const submitButt = document.querySelector('#submit');
 

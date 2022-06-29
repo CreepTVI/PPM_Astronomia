@@ -125,7 +125,7 @@
     z-index: 3;
 }
 
-@media screen and (min-width: 650px) and (max-width:1366px) {
+@media screen and (min-width: 650px) and (max-width:1700px) {
     .navMenu {
         width: 500px;
     }
@@ -141,7 +141,7 @@
    }  
 }
 
-@media screen and (min-width: 650px) and (max-width:1366px) {
+@media screen and (min-width: 650px) and (max-width:1700px) {
 .img {
     width: 300px;
     height: 150px;
