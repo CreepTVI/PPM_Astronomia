@@ -95,16 +95,20 @@
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="help.html">Help</a></li>
-            <li><a href="mappa.htlm"> Mappa</a></li>
+            <li><a href="mappa.html"> Mappa</a></li>
             <li><a href="#" onclick="closeApp()">Esci</a></li>
         </ul>
     </nav>
 </header>
 <section>
     <h3>Come nascono</h3>
+
+    <audio controls>
+        <source src="../Audios/planets/planets_4.mp3" type="audio/mpeg">
+    </audio>
+
     <p>Quando nasce una stella, essa è circondata da aree di polveri e gas chiamati dischi circumstellari, che diventeranno 
-        protopianeti. 
-        I dischi possono anche formarsi in seguito all’esplosione di una gigante rossa (nebulosa planetaria).
+        protopianeti. I dischi possono anche formarsi in seguito all’esplosione di una gigante rossa (nebulosa planetaria).
         La massa dei dischi, nel giro di qualche milione di anni, aumenta considerevolmente, a causa della condensazione di 
         roccia, metallo e ghiaccio che vanno a spazzare via dal disco le polveri preesistenti. <br>
         Durante questa fase di estrema instabilità, il protopianeta può collidere sulla sua stella a causa 
@@ -113,19 +117,19 @@
         asteroidi e comete. <br>
         Questo è il motivo per cui subito dopo la loro nascita i pianeti sono soggetti a continui impatti con corpi celesti 
         più piccoli. Lo stesso fenomeno è accaduto per la Terra, che si è probabilmente scontrata con un corpo di notevoli 
-        dimensioni: da quell’impatto si è originata la Luna. 
+        dimensioni: da quell’impatto si è originata la <a href="satellites_10.html"> Luna</a>.
     </p>
     <img alt="" src="../img/pianeti/nascitapianeta.jpg">
 </section>
 
 <footer>
-    <button class="button button2" onclick="location.href='pianeti3.html'" id="pre">Precedente</button>
+    <button class="button button2" onclick="history.back();" id="pre">Precedente</button>
 
     <p id="copyright">Copyright© 2022, tutti i diritti sono riservati.
         Autori: Ivone Danilo; Esposito Daniele; Camardi Martina; Siragusa Mattia; Gravina Antonio
         <a href="CorsaAlloSpazio@gmail.com">CorsaAlloSpazio@gmail.com</a></p>
 
-    <button class="button button2" onclick="location.href='pianeti5.html'" id="post">Continua</button>
+    <button class="button button2" onclick="location.href='planets_5.html'" id="post">Continua</button>
 </footer>
 
 </body>

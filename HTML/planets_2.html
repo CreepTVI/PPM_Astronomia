@@ -95,33 +95,40 @@
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="help.html">Help</a></li>
-            <li><a href="mappa.htlm"> Mappa</a></li>
+            <li><a href="mappa.html"> Mappa</a></li>
             <li><a href="#" onclick="closeApp()">Esci</a></li>
         </ul>
     </nav>
 </header>
 <section>
     <h3>Pianeti del sistema solare</h3>
-    <p>I pianeti solari sono quelli che orbitano attorno al Sole. In ordine di vicinanza ad esso, questi sono: Mercurio, Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno.  
-        Fra questi, i primi quattro sono detti terrestri o interni: sono formati principalmente da materiali solidi che costituiscono una buona parte della loro massa. 
-        Il rivestimento esterno, la crosta, si è generata a seguito del raffreddamento dei pianeti mentre si trovavano allo stato primordiale. <br>
-        Gli altri quattro sono detti gioviani o esterni: hanno masse enormi ma densità bassa.
+
+    <audio controls>
+        <source src="../Audios/planets/planets_2.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>I pianeti solari sono quelli che orbitano attorno al Sole. In ordine di vicinanza a esso, questi sono: Mercurio,
+        Venere, Terra, Marte, Giove, Saturno, Urano, Nettuno. Fra questi, i primi quattro sono detti <b>terrestri o
+        interni</b>: sono formati principalmente da materiali solidi che costituiscono una buona parte della loro
+        <a href="blackHole_8.html"> massa</a>. Il rivestimento esterno, la crosta, si è generata ha seguito del
+        raffreddamento dei pianeti mentre si trovavano allo stato primordiale. <br><br>
+        Gli altri quattro sono detti <b>gioviani o esterni</b>: hanno masse enormi ma densità bassa.
         I pianeti terresti sono separati da quelli gioviani da un’enorme fascia di asteroidi e comete. <br>
-        I pianeti gioviani sono poco densi in quanto formati principalmente da gas leggeri (idrogeno, elio), anche se vi sono tracce di 
-        gas più pesanti come il metano. Per questo sono anche detti “pianeti gassosi”. Solo pianeti formati da gas possono essere così 
-        grandi: se fossero formati da elementi più pesanti, collasserebbero.          
+        I pianeti gioviani sono poco densi in quanto formati principalmente da gas leggeri (idrogeno, elio), anche se vi
+        sono tracce di gas più pesanti come il metano. Per questo sono anche detti “pianeti gassosi”. Solo pianeti
+        formati da gas possono essere così grandi: se fossero formati da elementi più pesanti, collasserebbero.
     </p>
     <img alt="" src="../img/pianeti/sistemasolare.jpg">
 </section>
 
 <footer>
-    <button class="button button2" onclick="location.href='pianeti1.html'" id="pre">Precedente</button>
+    <button class="button button2" onclick="history.back();" id="pre">Precedente</button>
 
     <p id="copyright">Copyright© 2022, tutti i diritti sono riservati.
         Autori: Ivone Danilo; Esposito Daniele; Camardi Martina; Siragusa Mattia; Gravina Antonio
         <a href="CorsaAlloSpazio@gmail.com">CorsaAlloSpazio@gmail.com</a></p>
 
-    <button class="button button2" onclick="location.href='pianeti3.html'" id="post">Continua</button>
+    <button class="button button2" onclick="location.href='planets_3.html'" id="post">Continua</button>
 </footer>
 
 </body>
