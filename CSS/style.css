@@ -240,6 +240,16 @@ img {
     z-index: 0;
 }
 
+video {
+    width: 450px;
+    height: 250px;
+    margin-top: 2%;
+    border: solid #DEB992;
+    box-shadow: 0 0 .3rem #DEB992;
+    border-radius: 12px;
+    z-index: 0;
+}
+
 #copyright{
     font-size: 11px;
     text-align: center;
