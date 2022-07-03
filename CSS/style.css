@@ -146,19 +146,20 @@
     }
     p {
        font-size: 14px; 
-    } 
+    }  
+   .map .item{
+        width: 100%;
+        height: 100%;
+        max-width: 1000px;
+        max-height: 1000px;
+   }
    img {
-        max-height: 150px; 
-        max-width: 300px;
-   }  
+    max-height: 150px; 
+    max-width: 300px;
+} 
 }
 
-@media screen and (min-width: 650px) and (max-width:1400px) {
-.img {
-    width: 300px;
-    height: 150px;
-}
-}
+
 @media screen and (max-width: 600px) {
     .navMenu li a {
         font-size: 16px;
