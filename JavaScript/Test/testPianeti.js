@@ -163,7 +163,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
            <h2>Punteggio ottenuto: ${score}/${quizData.length}</h2>
 
-           <button class="button button1" onclick="location.reload()">Completato</button>
+           <button class="button button1" onclick="window.open('../celestialBodies.html','_self','')">Completato</button>
            `
         }
     }

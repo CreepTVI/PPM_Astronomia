@@ -1,0 +1,30 @@
+header {
+    background-color: none;
+    border-bottom: solid black;
+}
+
+section {
+    display: block;
+    border-top: solid #DEB992;
+}
+
+footer {
+    border-top: solid #DEB992;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: #1BA098
+}

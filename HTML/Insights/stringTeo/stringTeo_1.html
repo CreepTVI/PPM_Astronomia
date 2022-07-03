@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Danilo" name="author">
+
+    <title>Cosa sono - Corsa allo spazio</title>
+
+    <link href="../../../CSS/colors.css" rel="stylesheet">
+    <link href="../../../CSS/position.css" rel="stylesheet">
+    <link href="../../../CSS/animation.css" rel="stylesheet">
+    <link href="../../../CSS/style.css" rel="stylesheet">
+    <script defer src="../../../JavaScript/Stars.js" type="text/javascript"></script>
+    <script defer src="../../../JavaScript/navMenu.js" type="text/javascript"></script>
+    <script src="../../../JavaScript/functionLayout.js" type="text/javascript"></script>
+</head>
+
+<body onload="start()">
+<ul class="navMenu">
+    <li>
+        <a class="item_menu1" href="#">Introduzione</a>
+
+        <ul class="subMenu" id="sub1">
+            <li><a class="item_sub_menu" href="../../Introduction/story/introduction_0.html">Origini dell'astronomia</a></li>
+            <li><a class="item_sub_menu" href="../../Introduction/astronomy/astronomy_0.html">Cosa è l'astronomia</a></li>
+            <li><a class="item_sub_menu" href="../../Introduction/testStoria.html">Test storia</a></li>
+        </ul>
+
+    </li>
+
+    <li>
+        <a class="item_menu2" href="#">Corpi celesti</a>
+        <ul class="subMenu" id="sub2">
+            <li><a class="item_sub_menu" href="../../CelestialBodies/planets/planets_0.html">Pianeti</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialBodies/stars/stars_0.html">Stelle</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialBodies/satellites/satellites_0.html">Satelliti</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialBodies/planets/testPianeti.html">Test pianeti</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialBodies/stars/testStelle.html">Test stelle</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialBodies/satellites/testSatelliti.html">Test Satelliti</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="item_menu3" href="#">Fenomeni astronomici</a>
+        <ul class="subMenu" id="sub3">
+            <li><a class="item_sub_menu" href="../../AtmosphericPhenomena/vis/vis_phen_0.html">Visibili dalla Terra</a></li>
+            <li><a class="item_sub_menu" href="../../AtmosphericPhenomena/non_vis/non_vis_0.html">Non visibili</a></li>
+            <li><a class="item_sub_menu" href="../../AtmosphericPhenomena/testFenomeni.html">Test Fenomeni astronomici</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="item_menu4" href="#">Oggetti celesti</a>
+        <ul class="subMenu" id="sub4">
+            <li><a class="item_sub_menu" href="../../CelestialObjects/blackHole/blackHole_0.html">Buchi neri</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialObjects/whiteHole/whiteHole_0.html">Buchi bianchi</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialObjects/blackHole/testBuchiNeri.html">Test buchi neri</a></li>
+            <li><a class="item_sub_menu" href="../../CelestialObjects/whiteHole/testBuchiBianchi.html">Test buchi bianchi</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="item_menu5" href="#">Galassie</a>
+        <ul class="subMenu" id="sub5">
+            <li><a class="item_sub_menu" href="../../Galasias/galassia_0.html">Introduzione</a></li>
+            <li><a class="item_sub_menu" href="../../Galasias/testGalassie.html">Test Galassie</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a class="item_menu6" href="#">Approfondimenti</a>
+        <ul class="subMenu" id="sub6">
+            <li><a class="item_sub_menu" href="stringTeo_1.html">Teoria delle Stringhe</a></li>
+            <li><a class="item_sub_menu" href="../whormhole/wormHole_1.html">Whormholes</a></li>
+            <li><a class="item_sub_menu" href="../tempHole/tempHole_0.html">Buchi temporali</a></li>
+            <li><a class="item_sub_menu" href="../genericRel/genericRel_1.html">Relatività generale</a></li>
+            <li><a class="item_sub_menu" href="../teoMult/teoMult_1.html">Teoria del multiverso</a></li>
+        </ul>
+    </li>
+
+</ul>
+<header>
+    <h1>Teorie</h1>
+
+    <div class="nav-icon">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+        <a class="menu_icon" href="#"><i class="material-icons"></i> </a>
+    </div>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../help.html">Help</a></li>
+            <li><a href="../../mappa.html"> Mappa</a></li>
+            <li><a href="#" onclick="closeApp2()">Esci</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h3>Teoria delle stringhe</h3>
+
+    <audio controls>
+        <source src="../../../Audios/stringTeo/stringTeo_1.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>
+    La teoria delle stringhe è un modello fisico in cui i costituenti fondamentali non sono solo oggetti
+    privi di dimensione (i punti) ma anche oggetti a più dimensioni, evitando alcuni problemi 
+    connessi alla presenza esclusiva di particelle puntiformi. Gli oggetti descritti dalla 
+    teoria possono avere dimensioni nulle (punti), una dimensione (stringhe), due dimensioni 
+    (membrane) o un numero D di dimensioni maggiore di due (D-brane).
+    La teoria delle stringhe è un tentativo di descrivere l'intero universo con un'unica
+    "teoria del tutto" aggiungendo ulteriori dimensioni dello spazio-tempo e pensando alle
+    particelle come minuscoli anelli vibranti.
+      <br>
+    Il termine "teoria delle stringhe" si riferisce sia alla teoria bosonica a 26 dimensioni,
+    sia alla teoria supersimmetrica a 10 dimensioni (teoria delle superstringhe). 
+    Tuttavia, nell'uso comune il termine fa riferimento alla variante supersimmetrica.
+    <br>
+    </p>
+
+    <img src="../../../img/teorie/stringhe.jpg" alt="">
+</section>
+
+<footer>
+    <button class="button button2" id="pre" onclick="history.back()">Precedente</button>
+
+    <p id="copyright">Copyright© 2022, tutti i diritti sono riservati.
+        Autori: Ivone Danilo; Esposito Daniele; Camardi Martina; Siragusa Mattia; Gravina Antonio
+        <a href="CorsaAlloSpazio@gmail.com">CorsaAlloSpazio@gmail.com</a></p>
+
+    <button class="button button2" id="post" onclick="window.open('stringTeo_2.html', '_self', '')">Continua</button>
+</footer>
+
+</body>
+</html>

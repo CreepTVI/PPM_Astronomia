@@ -5,7 +5,7 @@ const quizData = [
         a: "Vero",
         b: "Falso",
         c: "Vero solo in alcuni casi",
-        d: "All'epoca le stelle ancora non erano state granchè osservate",
+        d: "All'epoca le stelle ancora non erano state granché osservate",
         correct: "a",
     },
     {
@@ -32,7 +32,7 @@ const quizData = [
         a: "Vero",
         b: "Falso",
         c: "Vero solo per alcuni seguaci",
-        d: "Per aristotele nell'universo esistevano solo la terra ed il Sole",
+        d: "Per Aristotele nell'universo esistevano solo la terra ed il Sole",
         correct: "a",
     },
     {
@@ -41,7 +41,7 @@ const quizData = [
         a: "Vero",
         b: "Falso",
         c: "Vero solo per alcuni seguaci",
-        d: "Per aristotele nell'universo esistevano solo la terra ed il Sole",
+        d: "Per Aristotele nell'universo esistevano solo la terra ed il Sole",
         correct: "b",
     },
     {
@@ -50,7 +50,7 @@ const quizData = [
         a: "Vero",
         b: "Falso",
         c: "Vero solo per alcuni seguaci",
-        d: "Per aristotele la Via Lattea era l'universo stesso",
+        d: "Per Aristotele la Via Lattea era l'universo stesso",
         correct: "b",
     },
     {
@@ -109,11 +109,11 @@ const quizData = [
     },
     {
         //13
-        question: "Alcune costellazioni cambiano posizione in base alle stagioni",
+        question: "Alcune costellazioni cambiano posizione in base alle stagioni?",
         a: "Vero",
         b: "Falso",
-        c: "Le costellazioni cambiano forma in base alle stagioni",
-        d: "Le costellazioni sono del tutto diverse fra le stagioni",
+        c: "Le tutte le costellazioni cambiano forma in base alle stagioni",
+        d: "Le costellazioni cambiano forma a seconda delle stagioni solo in particolari condizioni",
         correct: "a",
     },
     {
@@ -121,7 +121,7 @@ const quizData = [
         question: "Astrologia e Astronomia sono sinonimi",
         a: "Vero",
         b: "Falso",
-        c: "Vero solo a seconda della branca della prima",
+        c: "La prima è una branca della seconda",
         d: "L'astrologia non esiste",
         correct: "b",
     },
@@ -244,7 +244,7 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
            <h2>Punteggio ottenuto: ${score}/${quizData.length}</h2>
 
-           <button class="button button1" onclick="location.reload()">Completato</button>
+           <button class="button button1" onclick="window.open('../index.html','_self','')">Completato</button>
            `
         }
     }
