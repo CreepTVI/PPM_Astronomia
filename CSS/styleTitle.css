@@ -76,3 +76,8 @@ button:hover {
     text-align: center;
     font-family: "Calibri Light", sans-serif;
 }
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
