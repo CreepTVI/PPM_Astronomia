@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Danilo" name="author">
 
-    <title>Corsa allo spazio</title>
+    <title>Help - Corsa allo spazio</title>
 
     <link href="../CSS/Colors.css" rel="stylesheet">
     <link href="../CSS/temp.css" rel="stylesheet">
@@ -18,18 +18,6 @@
 </head>
 
 <body onload="start()">
-    <section>
-        <h3>Aiuto - Generale</h3>
-        <p>
-            Puoi accedere ai vari contenuti all'interno di questa applicazione utilizzando il menù di navigazione.<br>
-            Puoi accedere al menù di navigazione cliccando con il tasto sinistro del mouse sulle tre lineette parallele in alto a sinistra dell'applicazione.<br>
-            Puoi cliccare il tasto "Home" in alto a destra per tornare alla home page dell'applicazione.<br>
-            Puoi cliccare il tasto "Help" in alto a destra per aprire la guida alla navigazione dell'applicazione.<br>
-            Puoi cliccare il tasto "Mappa" in alto a destra per aprire la mappa della struttura dell'applicazione.<br>
-            Puoi cliccare il tasto "Esci" in alto a destra per chiudere l'applicazione<br>
-            In ogni sezione troverai i bottoni "Precedente" e "Continua" negli angoli inferiori dell'applicazione, che potrai utilizzare per navigare tra i diversi argomenti.<br>
-        </p>
-    </section>
     <ul class="navMenu">
         <li>
             <a class="item_menu1" href="#">Introduzione</a>
@@ -113,24 +101,27 @@
     </nav>
 </header>
 <section>
-
+    <h3>Aiuto - Generale</h3>
+        <p>
+            Puoi accedere ai vari contenuti all'interno di questa applicazione utilizzando il menù di navigazione.<br>
+            Puoi accedere al menù di navigazione cliccando con il tasto sinistro del mouse sulle tre lineette parallele in alto a sinistra dell'applicazione.<br>
+            Puoi cliccare il tasto "Home" in alto a destra per tornare alla home page dell'applicazione.<br>
+            Puoi cliccare il tasto "Help" in alto a destra per aprire la guida alla navigazione dell'applicazione.<br>
+            Puoi cliccare il tasto "Mappa" in alto a destra per aprire la mappa della struttura dell'applicazione.<br>
+            Puoi cliccare il tasto "Esci" in alto a destra per chiudere l'applicazione<br>
+            In ogni sezione troverai i bottoni "Precedente" e "Continua" negli angoli inferiori dell'applicazione, che potrai utilizzare per navigare tra i diversi argomenti.<br>
+        </p>
 </section>
 
 <footer>
-    <button  class="button button2" id="pre" onclick="history.back();">Precedente</button>
+    <button  class="button button2" id="pre" onclick="history.back()">Precedente</button>
 
-    <script>
-        function change_text(){
-            document.getElementById("titolo").innerHTML = "Aiuto - Menù di navigazione";
-            document.getElementById("aiuto").innerHTML = "aiuto del menù";
-        }
-    </script>
 
     <p id="copyright">Copyright© 2022, tutti i diritti sono riservati.
         Autori: Ivone Danilo; Esposito Daniele; Camardi Martina; Siragusa Mattia; Gravina Antonio
         <a href="CorsaAlloSpazio@gmail.com">CorsaAlloSpazio@gmail.com</a></p>
 
-    <button onclick="change_text()" class="button button2" id="post">Continua</button>
+    <button class="button button2" id="post" onclick="window.open('HelpMenu.html', '_self', '')">Continua</button>
 </footer>
 
 </body>
