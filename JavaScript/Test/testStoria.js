@@ -83,10 +83,10 @@ const quizData = [
     {
         //10
         question: "Cosa descrive l'Almagesto?",
-        a: "l'unione tra il sistema aristotelico e il cristianesimo",
-        b: "l’universo centrato sulla Terra di Aristotele",
-        c: "un catalogo di pianeti e posizioni delle stelle",
-        d: "una raccolta di disegni delle interpretazioni delle costellazioni",
+        a: "L'unione tra il sistema aristotelico e il cristianesimo",
+        b: "L’universo centrato sulla Terra di Aristotele",
+        c: "Un catalogo di pianeti e posizioni delle stelle",
+        d: "Una raccolta di disegni delle interpretazioni delle costellazioni",
         correct: "b",
     },
     {
@@ -101,10 +101,10 @@ const quizData = [
     {
         //12
         question: "Cosa significa astronomia?",
-        a: "legge delle stelle",
-        b: "studio delle stelle",
-        c: "posizioni delle stelle",
-        d: "colorazione delle stelle",
+        a: "Legge delle stelle",
+        b: "Studio delle stelle",
+        c: "Posizioni delle stelle",
+        d: "Colorazione delle stelle",
         correct: "a",
     },
     {
@@ -128,10 +128,10 @@ const quizData = [
     {
         //15
         question: "L'astrologia:",
-        a: "significa legge delle stelle",
-        b: "è fondata su credenze popolari",
-        c: "è basata su studi certi",
-        d: "significa forma delle stelle",
+        a: "Significa legge delle stelle",
+        b: "E' fondata su credenze popolari",
+        c: "E' basata su studi certi",
+        d: "Significa forma delle stelle",
         correct: "b",
     },
     {
@@ -146,10 +146,10 @@ const quizData = [
     {
         //17
         question: "L'ipotesi copernicana era appoggiata:",
-        a: "da Galileo",
-        b: "dalle Sacre Scritture",
-        c: "dal tribunale della Santa Inquisizione",
-        d: "dal Papa",
+        a: "Da Galileo",
+        b: "Dalle Sacre Scritture",
+        c: "Dal tribunale della Santa Inquisizione",
+        d: "Dal Papa",
         correct: "a",
     },
     

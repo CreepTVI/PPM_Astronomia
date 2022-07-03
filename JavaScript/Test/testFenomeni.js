@@ -2,19 +2,19 @@ const quizData = [
     {
         //1
         question: "Un'eclissi lunare si dice parziale quando la Luna",
-        a: "attraversa il cono di penombra.",
-        b: "percorre tutta la parte in ombra.",
-        c: "non si trova esattamente nella posizione nodale.",
-        d: "attraversa il cono d'ombra.",
+        a: "Attraversa il cono di penombra.",
+        b: "Percorre tutta la parte in ombra.",
+        c: "Non si trova esattamente nella posizione nodale.",
+        d: "Attraversa il cono d'ombra.",
         correct: "c",
     },
     {
         //2
         question: "I colori di un'aurora polare dipendono",
-        a: "dai gas presenti nell'atmosfera e dal loro stato elettrico.",
-        b: "dallo stato elettrico dei gas presenti nell'atmosfera e dall'energia delle particelle che li colpiscono.",
-        c: "dall'energia delle particelle che colpiscono i gas presenti nell'atmosfera.",
-        d: "dai gas presenti nell'atmosfera, dal loro stato elettrico e dall'energia delle particelle che li colpiscono.",
+        a: "Dai gas presenti nell'atmosfera e dal loro stato elettrico.",
+        b: "Dallo stato elettrico dei gas presenti nell'atmosfera e dall'energia delle particelle che li colpiscono.",
+        c: "Dall'energia delle particelle che colpiscono i gas presenti nell'atmosfera.",
+        d: "Dai gas presenti nell'atmosfera, dal loro stato elettrico e dall'energia delle particelle che li colpiscono.",
         correct: "d",
     },
     {
@@ -29,10 +29,10 @@ const quizData = [
     {
         //4
         question: "Il fenomeno del Sole di mezzanotte ha una durata di ",
-        a: "circa 24 o 48 ore presso il polo e 6 mesi presso il circolo polare.",
-        b: "circa 6 mesi presso il polo e 24 o 48 presso il circolo polare.",
-        c: "circa 6 giorni presso il polo e 24 o 48 ore presso il circolo polare.",
-        d: "circa 6 mesi presso il circolo polare è 24 ore presso il polo.",
+        a: "Circa 24 o 48 ore presso il polo e 6 mesi presso il circolo polare.",
+        b: "Circa 6 mesi presso il polo e 24 o 48 presso il circolo polare.",
+        c: "Circa 6 giorni presso il polo e 24 o 48 ore presso il circolo polare.",
+        d: "Circa 6 mesi presso il circolo polare è 24 ore presso il polo.",
         correct: "b",
     },
     {
@@ -47,10 +47,10 @@ const quizData = [
     {
         //6
         question: "La luminosità dell'esplosione di una nova rossa luminosa è",
-        a: "minore di quella di una nova e maggiore di quella di una supernova.",
-        b: "uguale a quella di una supernova.",
-        c: "maggiore di quella di una nova e minore di quella di una supernova.",
-        d: "minore di quella di una supernova.",
+        a: "Minore di quella di una nova e maggiore di quella di una supernova.",
+        b: "Uguale a quella di una supernova.",
+        c: "Maggiore di quella di una nova e minore di quella di una supernova.",
+        d: "Minore di quella di una supernova.",
         correct: "c",
     },
 ];
